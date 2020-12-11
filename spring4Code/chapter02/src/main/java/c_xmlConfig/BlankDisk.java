@@ -3,7 +3,7 @@ package c_xmlConfig;
 import java.util.List;
 
 /**
- * Created by yangjing on 2018/1/2
+ *
  */
 public class BlankDisk implements CompactDisk {
 

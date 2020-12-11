@@ -9,7 +9,7 @@ import javax.persistence.PersistenceContext;
 import java.util.List;
 
 /**
- * Created by yangjing on 2018/3/15
+ *
  */
 @Repository
 public class SpittleRepositoryImpl implements SpittleRepositoryCustom {

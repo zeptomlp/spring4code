@@ -26,7 +26,7 @@ BeanFactory，以此作为依赖注入机制实现的基础。org.springframewor
 所谓依赖注入，就是在运行时期，由容器将依赖关系注入到组件之中。用 Spring 配置文件，将其他对象的引用通过组件提供的
 Setter 方法进行设定。我们知道，如果动态的设置一个对象的属性，可以借助 Java 的 Reflection 机制实现：
 ```
-Class cls = Class.forName("cn.yang.example.beans.User");
+Class cls = Class.forName(" cn.albers.example.beans.User");
 Method mtd = cls.getMethod("setName", new Class[]{String.class});
 Object obj = (Object)cls.newInstance();
 mtd.invoke(obj, new Object[]{"Erica"});
@@ -37,7 +37,7 @@ return obj;
 它的功能很简单，提供一个设置 JavaBean 属性的通用方法。Spring BeanWrapper 基于同样的原理，提供了一个更加完善的实现。
 看看如何通过Spring BeanWrapper操作一个JavaBean：  
 ```
-Object obj = Class.forName("cn.yang.example.beans.User").newInstance();
+Object obj = Class.forName(" cn.albers.example.beans.User").newInstance();
 BeanWrapper bw = new BeanWrapperImpl(obj);
 bw.setPropertyName("name", "Erica");
 System.out.println("User name => " + bw.getPropertyValue("name"));
@@ -64,7 +64,7 @@ Bean Factory 负责根据配置文件创建 Bean 实例，可以配置的项目�
     <!--depends-on: Bean依赖关系。一般情况下无需设定。Spring会根据情况组织各个依赖关系的构建工作
             只有某些特殊情况下，如JavaBean中的某些静态变量需要进行初始化（这是一种Bad Smell，应该在设计上应该避免）。
             通过depends-on指定其依赖关系可保证在此Bean加载之前，首先对depends-on所指定的资源进行加载。-->
-    <bean id="TheAction" class="cn.yang.beans.UpperAction" singleton="true" init-method="init" 
+    <bean id="TheAction" class=" cn.albers.beans.UpperAction" singleton="true" init-method="init" 
     destroy-method="cleanup" depends-on="ActionManager">
         <property name="message">
             <value>HELLO</value>

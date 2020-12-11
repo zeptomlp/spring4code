@@ -3,7 +3,7 @@ package c_xmlConfig;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 /**
- * Created by yangjing on 2018/1/2
+ *
  */
 public class C_CDPlayerTest {
 

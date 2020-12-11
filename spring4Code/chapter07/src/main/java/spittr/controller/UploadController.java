@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RequestPart;
 import org.springframework.web.multipart.MultipartFile;
 
 /**
- * Created by yangjing on 2018/1/26
+ *  6
  */
 @Controller
 public class UploadController {

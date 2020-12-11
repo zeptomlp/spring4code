@@ -20,7 +20,7 @@ import javax.persistence.EntityManagerFactory;
 import javax.sql.DataSource;
 
 /**
- * Created by yangjing on 2018/3/15
+ *
  */
 @Configuration
 @EnableJpaRepositories(basePackages = "com.jpaspringdata")

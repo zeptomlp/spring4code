@@ -6,7 +6,7 @@ import org.springframework.data.jpa.repository.JpaRepository;
 import java.util.List;
 
 /**
- * Created by yangjing on 2018/3/15
+ *
  */
 public interface SpittleRepository extends JpaRepository<Spittle, Long>, SpittleRepositoryCustom {
 

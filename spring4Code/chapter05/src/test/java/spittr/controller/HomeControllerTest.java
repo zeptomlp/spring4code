@@ -7,7 +7,7 @@ import org.springframework.test.web.servlet.result.MockMvcResultMatchers;
 import org.springframework.test.web.servlet.setup.MockMvcBuilders;
 
 /**
- * Created by yangjing on 2018/1/9
+ *
  */
 public class HomeControllerTest {
 

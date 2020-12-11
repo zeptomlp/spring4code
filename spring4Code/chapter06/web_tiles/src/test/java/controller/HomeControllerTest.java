@@ -8,7 +8,7 @@ import org.springframework.test.web.servlet.setup.MockMvcBuilders;
 import spittr.controller.HomeController;
 
 /**
- * Created by yangjing on 2018/1/9
+ *
  */
 public class HomeControllerTest {
 

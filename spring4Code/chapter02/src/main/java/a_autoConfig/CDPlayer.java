@@ -4,7 +4,10 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
 /**
- * Created by yangjing on 2018/1/2
+ * @version: V1.0
+ * @author: Albers
+ * @date: 2020/12/11
+ * @description:
  */
 @Component
 public class CDPlayer implements MediaPlayer {

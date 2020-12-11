@@ -7,7 +7,7 @@ import javax.persistence.EntityManager;
 import javax.persistence.PersistenceContext;
 
 /**
- * Created by yangjing on 2018/3/15
+ *
  */
 @Repository
 public class SpitterRepositoryImpl implements SpitterSweeper {

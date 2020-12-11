@@ -13,7 +13,7 @@ import spittr.repository.SpittleRepository;
 import java.util.List;
 
 /**
- * Created by yangjing on 2018/1/9
+ *
  */
 @Controller
 @RequestMapping("/spittles")

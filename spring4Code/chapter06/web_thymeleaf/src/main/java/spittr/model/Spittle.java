@@ -5,7 +5,7 @@ import lombok.Getter;
 import java.util.Date;
 
 /**
- * Created by yangjing on 2018/1/9
+ *
  */
 @Getter
 public class Spittle {

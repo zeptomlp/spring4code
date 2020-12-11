@@ -12,7 +12,7 @@ import org.springframework.web.servlet.view.tiles3.TilesConfigurer;
 import org.springframework.web.servlet.view.tiles3.TilesViewResolver;
 
 /**
- * Created by yangjing on 2018/1/9
+ *
  */
 @Configuration
 @ComponentScan("spittr")

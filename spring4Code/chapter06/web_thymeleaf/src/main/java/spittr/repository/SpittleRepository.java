@@ -5,7 +5,7 @@ import spittr.model.Spittle;
 import java.util.List;
 
 /**
- * Created by yangjing on 2018/1/9
+ *
  */
 public interface SpittleRepository {
 

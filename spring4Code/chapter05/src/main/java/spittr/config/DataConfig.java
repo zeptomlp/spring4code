@@ -9,7 +9,7 @@ import org.springframework.jdbc.datasource.embedded.EmbeddedDatabaseType;
 import javax.sql.DataSource;
 
 /**
- * Created by yangjing on 2018/1/9
+ *
  */
 @Configuration
 public class DataConfig {

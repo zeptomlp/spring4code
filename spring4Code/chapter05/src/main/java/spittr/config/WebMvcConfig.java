@@ -12,7 +12,7 @@ import org.springframework.web.servlet.view.InternalResourceViewResolver;
 import org.springframework.web.servlet.view.JstlView;
 
 /**
- * Created by yangjing on 2018/1/9
+ *
  */
 @Configuration
 @ComponentScan("spittr")

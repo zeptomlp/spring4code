@@ -4,7 +4,10 @@ import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 
 /**
- * Created by yangjing on 2018/1/2
+ * @version: V1.0
+ * @author: Albers
+ * @date: 2020/12/11
+ * @description:
  */
 @Configuration
 @ComponentScan("a_autoConfig")
