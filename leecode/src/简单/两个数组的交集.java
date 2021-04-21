@@ -12,23 +12,20 @@ import java.util.Iterator;
  */
 public class 两个数组的交集 {
     public static int[] intersect(int[] nums1, int[] nums2) {
-        ArrayList<Integer> list = new ArrayList<>();
         HashMap<Integer, Integer> map = new HashMap<>();
-        HashMap<Integer, Integer> map2 = new HashMap<>();
+        ArrayList<Integer> list = new ArrayList<>();
+
         for (int i = 0; i < nums1.length; i++) {
-            if (!map.containsKey(nums1[i])){
-                map.put(nums1[i],0);
-            }
-        }for (int i = 0; i < nums2.length; i++) {
-            if (!map2.containsKey(nums1[i])){
-                map2.put(nums1[i],0);
+            map.put(nums1[i], map.getOrDefault(nums1[i], 0) + 1);
+        }
+
+        for (int i = 0; i < nums2.length; i++) {
+            if (map.getOrDefault(nums2[i], 0) > 0) {
+                list.add(nums2[i]);
+                map.put(nums2[i], map.get(nums2[i]) - 1);
             }
         }
-        for (Integer integer : map2.keySet()) {
-            if (map.containsKey(integer)){
-                list.add(integer);
-            }
-        }
+
         int[] res = new int[list.size()];
         for (int i = 0; i < list.size(); i++) {
             res[i] = list.get(i);
