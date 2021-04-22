@@ -1,4 +1,4 @@
-package 简单;
+package 简单.数组;
 
 /**
  * @author: Albers
