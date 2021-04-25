@@ -75,8 +75,4 @@ public class 外观数列 {
         }
         return res.toString();
     }
-
-
-
-
 }
