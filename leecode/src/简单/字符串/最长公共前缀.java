@@ -7,4 +7,8 @@ package 简单.字符串;
  */
 public class 最长公共前缀 {
 
+    public String longestCommonPrefix(String[] strs) {
+       return null;
+        }
+
 }
