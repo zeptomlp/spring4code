@@ -6,22 +6,7 @@ package 简单.链表;
  * @description:
  */
 public class 删除链表的倒数第N个节点 {
-    public static class ListNode {
-        int val;
-        ListNode next;
 
-        ListNode() {
-        }
-
-        ListNode(int val) {
-            this.val = val;
-        }
-
-        ListNode(int val, ListNode next) {
-            this.val = val;
-            this.next = next;
-        }
-    }
 
     public static void main(String[] args) {
         ListNode result = new ListNode(1, new ListNode(2, new ListNode(3, new ListNode(4, new ListNode(5)))));

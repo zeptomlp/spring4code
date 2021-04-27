@@ -8,11 +8,6 @@ package 简单.链表;
 public class 删除链表中的节点 {
     //输入：head = [4,5,1,9], node = 5
     //输出：[4,1,9]
- public class ListNode {
-      int val;
-      ListNode next;
-      ListNode(int x) { val = x; }
-  }
 /** 
 * @Description: 找替死鬼
 * @Param: [node] 
