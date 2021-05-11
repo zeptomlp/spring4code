@@ -11,16 +11,18 @@ import java.util.List;
  */
 public class 二叉树的层序遍历 {
     public static void main(String[] args) {
-        levelOrder(new TreeNode(3,new TreeNode(9,new TreeNode(11,null,null),new TreeNode(12,null,null)),new TreeNode(20,new TreeNode(15,null,null),new TreeNode(17,null,null))));
+        levelOrder(new TreeNode(3, new TreeNode(9, new TreeNode(11, null, null), new TreeNode(12, null, null)), new TreeNode(20, new TreeNode(15, null, null), new TreeNode(17, null, null))));
     }
+
     public static List<List<Integer>> levelOrder(TreeNode root) {
         ArrayList<List<Integer>> list = new ArrayList<>();
-       List<Integer> list2 = new ArrayList<>();
+        List<Integer> list2 = new ArrayList<>();
 
         if (null == root) {
             return list;
         }
-int count = 0;
+        // TODO: 2021/5/6 未完成 
+        int count = 0;
         LinkedList<TreeNode> queue = new LinkedList<>();
         queue.add(root);
         while (!queue.isEmpty()) {
@@ -34,11 +36,12 @@ int count = 0;
             if (root.right != null) {
                 queue.add(root.right);
             }
-            if (count==0){
+
+            if (count == 0) {
                 list.add(list2);
                 list2.clear();
                 count = queue.size();
-            }else {
+            } else {
                 count--;
             }
 
